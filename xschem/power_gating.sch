@@ -221,11 +221,13 @@ C {devices/lab_pin.sym} 1270 -280 0 0 {name=p47 sig_type=std_logic lab=DVSS}
 C {sky130_fd_pr/diode.sym} 1150 -540 0 0 {name=D1
 model=diode_pd2nw_11v0
 area=2e11
-pj=1.8e6}
+
+perim=1.8e6}
 C {sky130_fd_pr/diode.sym} 1150 -480 0 0 {name=D2
 model=diode_pw2nd_11v0
 area=2e11
-pj=1.8e6}
+
+perim=1.8e6}
 C {devices/lab_pin.sym} 1120 -510 0 0 {name=p48 sig_type=std_logic lab=XIN}
 C {devices/iopin.sym} 560 -910 0 0 {name=p38 lab=EG_AVDD}
 C {devices/iopin.sym} 560 -880 0 0 {name=p39 lab=EG_AVSS}
